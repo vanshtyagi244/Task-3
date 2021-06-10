@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* .container{
+    border: 2px solid rgb(196, 168, 168);
+} */
+header, footer{
+    display: flex;
+    background-color: rgb(16, 49, 26);
+    justify-content: space-between;
+    align-items:  center;
+    position: sticky;
+    top: 0px;
+}
+nav  a, footer a {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     margin: 3em;
+
+   
+}
+nav li, footer li{
+    float: left;
+    list-style: none;
+    flex-wrap: wrap;
+}
+nav li a:hover,#sbtn:hover, footer li a:hover, #active {
+    color:rgb(171, 171, 243);
+}
+#box1{
+    display:  flex;
+}
+#logo{
+    width:  41px;
+    /* height:  9vh; */
+    filter: invert(100%);
+    align-self: center;
+}
+#main_heading{  
+  color: white;
+  align-self: center;
+  padding: 0.3em;
+}
+#sbox{
+    width: 20vw;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    padding:0.5em;
+    border: 2px solid black;
+}
+#sbtn{
+    padding:0.5em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    cursor: pointer;
+    border: 2px solid black;
+}
+#sbtn:active{
+      background-color: rgb(213, 248, 218);
+}
+#sec1{
+  background-image: url(img/img1.jpg);
+  /* height:fit-content; */
+ background-size: 100%;
+ background-repeat: no-repeat;
+ display: flex;
+ flex-wrap: wrap;
+ background-color: rgb(67, 216, 191);
+
+   
+}
+#img2{ 
+    width:200px;
+    align-self: center;
+   
+}
+#heading2{
+    
+    font-size: 3em;
+color:rgb(255, 255, 255);
+margin: auto;
+
+}
+#offers{
+    font-size: 2em;
+    width: 35vh;
+    margin: auto;
+}
+#todaysoffers{
+    background-color: rgb(49, 133, 74);
+}
+#offerbox{
+    display:  flex;
+
+flex-wrap: wrap;
+
+justify-content: center;
+}
+.offers{
+    height:300px;
+    width:300px;
+    border: 2px solid rgb(0, 0, 0);
+   margin: 2em;
+   background-repeat: no-repeat;
+   color:linen;
+   border-radius: 5px;
+   cursor: pointer;
+}
+footer{
+    height: 10vh;
+    
+}
+#sec2{
+    background-color: rgb(221, 248, 248);
+}
+span{
+    text-decoration: line-through;
+}
+#offer1{
+    background-image: url(img//BurgerKing.jpg);   
+}
+#offer2{
+    background-image: url(img/VegBiryani.jpg);
+}
+#offer3{
+    background-image: url(img/Belgiumwaffer.jpg);
+}
+#offer4{
+    background-image: url(img/FrolickIcecreams.jpg);
+}
+#offer5{
+    background-image: url(img/ChoclateCake.jpg);
+}
+#offer6{
+    background-image: url(img/Momos.jpg);
+}
+#offer7{
+    background-image: url(img/PavBhaji.jpg);
+}
+#offer8{
+    background-image: url(img/BesanLaddu.jpg);
+}
+.offers:hover{
+    background-size: 500px;
+}
